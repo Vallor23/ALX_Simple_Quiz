@@ -2,7 +2,7 @@ function checkAnswer () {
     let correctAnswer = "4";
     
     const userAnswer = document.getElementsByName("quiz");
-    const para = document.getElementById("feedback")
+    const para = document.querySelector("#feedback")
     
     // Loop through all radio buttons
     for (i= 0; i <userAnswer.length; i++) {
